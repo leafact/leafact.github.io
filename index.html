@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>叶志群的主页</title>
+<link href="images/style.css" rel="stylesheet" type="text/css" /> 
+</head>
 <script>
 function browserRedirect() {
     var sUserAgent = navigator.userAgent.toLowerCase();
@@ -17,9 +22,19 @@ function browserRedirect() {
         window.location.href="http://m.blog.csdn.net/blog/index?username=leafact";
     }
 }
-browserRedirect();
 </script>
 <body>
+<ul id="nav"> 
+<li><a href="" class="btn ps-cs6">首页</a>
+<li><a href="javascript:browserRedirect();" class="btn ps-cs6">我的博客</a>
+<li><a href="" class="btn ps-cs6">我的作品</a></li> 
+<li><a href="" class="btn ps-cs6">联系方式</a></li> 
+</ul>
 </body>
-
+<STYLE TYPE="text/css">
+BODY {background-image: URL(images/bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+</STYLE>
 </html>
