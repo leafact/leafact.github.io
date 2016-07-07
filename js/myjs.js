@@ -12,9 +12,11 @@ function browserRedirect() {
     var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
     var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
     if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-        window.location.href="http://blog.csdn.net/leafact";
+        //window.location.href="http://blog.csdn.net/leafact";
+		window.open("http://blog.csdn.net/leafact");
     } else {
-        window.location.href="http://m.blog.csdn.net/blog/index?username=leafact";
+        //window.location.href="http://m.blog.csdn.net/blog/index?username=leafact";
+		window.open("http://m.blog.csdn.net/blog/index?username=leafact");
     }
 }
 
@@ -29,8 +31,11 @@ function browserZhangHaoGuanJiaRedirect() {
     var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
     var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
     if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-        window.location.href="http://android.myapp.com/myapp/detail.htm?apkName=com.leafact.helppwd";
+        //window.location.href="http://android.myapp.com/myapp/detail.htm?apkName=com.leafact.helppwd";
+		window.open("http://android.myapp.com/myapp/detail.htm?apkName=com.leafact.helppwd");
     } else {
-        window.location.href="http://a.app.qq.com/o/simple.jsp?pkgname=com.leafact.helppwd";
+        //window.location.href="http://a.app.qq.com/o/simple.jsp?pkgname=com.leafact.helppwd";
+		window.open("http://a.app.qq.com/o/simple.jsp?pkgname=com.leafact.helppwd");
+		
     }
 }
