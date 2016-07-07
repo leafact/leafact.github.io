@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/wallhaven-312458.jpg) no-repeat bottom center scroll;
+    background: url(../img/1.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -169,18 +169,18 @@ a:focus {
 }
 
 .intro1{
-    background: url(../img/wallhaven-239634.jpg) no-repeat bottom center scroll;
+    background: url(../img/2.jpg) no-repeat bottom center scroll;
     
 }
 
 
 .intro2{
-    background: url(../img/wallhaven-119009.jpg) no-repeat bottom center scroll;
+    background: url(../img/3.jpg) no-repeat bottom center scroll;
    
 }
 
 .intro3{
-    background: url(../img/wallhaven-256591.jpg) no-repeat bottom center scroll;
+    background: url(../img/4.jpg) no-repeat bottom center scroll;
     
 }
 
